@@ -4,7 +4,7 @@ import { terser } from "rollup-plugin-terser";
 export default {
   input: "src/main.js", // Tệp chính
   output: {
-    file: "dist/codemirror.css.bundle.js", // Tệp đầu ra
+    file: "dist/css.bundle.js", // Tệp đầu ra
     format: "iife", // Định dạng IIFE (trình duyệt)
     sourcemap: true, // Tạo file sourcemap để debug
     name: "nukeviet.CSSEditor",
