@@ -1,0 +1,26 @@
+{
+  "name": "nukeviet-codemirror-6",
+  "version": "1.0.0",
+  "description": "CSS editor for theme",
+  "main": "index.js",
+  "keywords": [
+    "codemirror 6",
+    "nukeviet",
+    "nukeviet 4.6"
+  ],
+  "author": "VINADES.,JSC",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "codemirror": "^6.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
